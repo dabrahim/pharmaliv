@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="" method="POST" id="form-creer-livreur">
+    <strong>Zone: </strong><br>
+    <select name="idZone[]" multiple>
+        {% for zone in zones %}
+        <option value="{{zone['id_zone']}}">{{zone['nom']}}</option>
+        {% endfor %}
+    </select><br>
+    <button>Ajouter</button>
+</form>
+{% endblock %}
+

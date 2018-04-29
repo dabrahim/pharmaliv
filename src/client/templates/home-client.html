@@ -1,0 +1,155 @@
+{% extends 'home-base.html' %}
+
+{% block title %}Client Home Page{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{rootDir}}/static/css/custom/home-client.css">
+{% endblock %}
+
+{% block type %}CLIENT{% endblock %}
+
+{% block content %}
+<style>
+	.fake-btn{
+		border:1px solid black;
+		border-radius: 5px;
+		padding: 5px;
+		cursor: pointer;
+	}
+	.fake-btn:hover{
+		background-color: lightgray;
+	}
+	.custom tr, .custom td, .custom th{
+		border:none;
+	}
+	.custom{
+		border-bottom: 1px solid black;
+	}
+</style>
+<table class="custom" style="width: 100%;">
+	<tr>
+		<td style="width: 50%;padding: 20px;">
+			<div class="fake-btn" id="btn-add-doc">Ajouter un document</div>
+		</td>
+		<td style="padding: 20px;">
+			<div class="fake-btn" id="btn-order">Passer une commande</div>
+		</td>
+	</tr>
+</table>
+{% endblock %}
+
+{% block layer %}
+<form id="form-add-doc" class="animated bounceIn">
+	<h1>Ajout Document</h1>
+	<p>Veuillez compléter les informations ci dessus pour ajouter un nouveau document</p>
+	<input type="text" name="titre" placeholder="Titre"><br>
+	<textarea name="description" placeholder="Description"></textarea><br>
+	<strong>Type: </strong><input type="radio" name="type" value="ordonnance" checked>Ordonnance
+	<input type="radio" name="type" value="attestation">Attestation d'assurance<br>
+	<input type="file" name="document"><br>
+	<button type="submit">Enregistrer</button>
+</form>
+
+<form class="animated bounceIn" id="form-order">
+	<div style="width: 100%;padding: 10px;background-color: #27ae60;color: white;font-size: 20px;font-weight: bold;">Commande</div>
+	<div id="pharmacies">
+		<h1>Liste des pharmacies disponibles</h1>
+		<div class="container"></div>
+		<!--
+		<div class="pharm-block">
+			<!-- <img src="{{rootDir}}/static/icons/pill.png" alt="" style="width: calc(100% - 20px);">-->
+			<!--
+			<div></div>
+			<h1>Pharmacie des pompiers</h1>
+			<p>Grand dakar, près de la mosquée</p>
+			<span>Située à <strong>12KM</strong> de vous</span>
+		</div>
+		-->
+	</div>
+	<div id="med-search">
+		<div>
+			<!--<button >PANIER</button>-->
+			<img id="show-panier-btn" src="{{rootDir}}/static/icons/shopping-cart.png" alt="">
+		</div>
+		<h1>Produits disponibles</h1>
+		<input type="text" placeholder="Rechercher un médicament" id="champ-filtre-produit"><br>
+
+		<button id="medoc-tab-btn" type="button">Médicament</button>
+		<button id="parapharm-tab-btn" type="button">Parapharmacie</button>
+
+		<!--
+		<div id="medicaments">
+			<div class="medicament">
+				<div class="medic-pic"></div>
+				<h1 class="medic-titre">titre</h1>
+				<p class="medic-description">Desciption</p>
+				<p><strong class="medic-prix">prix</strong></p>
+			</div>
+		</div>
+		-->
+		<div id="medicaments">
+			<h2>Médicaments</h2>
+			<div class="container"></div>
+		</div>
+		<div id="parapharm">
+			<h2>Produits parapharmaceutiques</h2>
+			<div class="container"></div>
+		</div>
+		<br><br><button type="button" id="valider-choix-btn">Commander</button>
+	</div>
+	<div id="cloture-commande">
+		<h1>Informations de commande</h1>
+		<input type="date" placeholder="Date de livraison" id="date-livraison-field"><br>
+		<input type="number" placeholder="Heure livraison" id="heure-livraison-field"><br>
+
+		<h1>Modes de paiement</h1>
+		<input type="radio" name="modePaiement" value="PAYPAL" checked>Paypal
+		<input type="radio" name="modePaiement" value="OM">Orange Money
+		<input type="radio" name="modePaiement" value="VISA">Carte Visa
+		<input type="radio" name="modePaiement" value="PAYDUNYA">Paydunuya <br>
+
+		<div id="documents">
+			<h1>Liste des documents à joindre</h1>
+			<table>
+				<thead>
+					<tr>
+						<th>Titre Document</th>
+						<th>Type</th>
+						<th>Date D'ajout</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+
+		<button type="submit">Commander</button>
+	</div>
+</form>
+
+<div id="panier" class="animated fadeIn">
+	<table>
+		<thead>
+		<tr>
+			<th>Nom Produit</th>
+			<th>Type</th>
+			<th>Quantité</th>
+			<th>PU</th>
+			<th>Total</th>
+			<th>Retirer</th>
+		</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+</div>
+
+<div id="loader" style="position:absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);display: none;">
+	<h1 style="color: white;">PLEASE WAIT</h1>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{{rootDir}}/static/js/assets/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="{{rootDir}}/static/js/custom/home-client.js"></script>
+{% endblock %}

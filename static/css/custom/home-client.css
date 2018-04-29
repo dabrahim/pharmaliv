@@ -1,0 +1,261 @@
+#form-add-doc{
+    display: none;
+    border:1px solid black;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.3);
+    margin: 50px;
+}
+
+#form-add-doc input[type="text"], #form-add-doc textarea{
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+}
+#form-add-doc p{
+    max-width: 450px;
+}
+#form-add-doc textarea{
+    height: 150px;
+}
+#form-order{
+    width: 90%;
+    max-height: 90%;
+    display: block;
+    margin: 2.5% auto;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 5px;
+    display: none;
+    position: relative;
+}
+
+#pharmacies{
+    padding: 20px;
+}
+
+.pharm-block {
+    vertical-align: top;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border:1px solid gray;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    cursor: pointer;
+    margin: 5px;
+}
+
+.pharm-block:hover{
+    box-shadow: 1px 1px 3px rgba(0,0,0,1);
+}
+
+.pharm-block div{
+    width: 100%;
+    background-color: #27ae60;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.pharm-block h1{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.pharm-block p {
+    margin: 0 0 10px 0;
+}
+
+.pharm-block span {
+    font-size: 14px;
+    font-style: italic;
+}
+
+#med-search {
+    display: none;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.medicament{
+    display: inline-block;
+    /*border:1px solid black;*/
+    margin: 5px;
+    padding: 5px;
+    vertical-align: top;
+    max-width: 200px;
+    background-color: white;
+}
+.medic-pic {
+    width: 100%;
+    height: 100px;
+}
+.medicament p{
+    margin: 5px;
+}
+.medicament button{
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color:  transparent;
+    font-weight:  bold;
+    padding: 5px;
+    transition:  0.5s all;
+}
+.medic-description{
+    margin: 0;
+}
+
+.medic-pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.medic-titre{
+
+}
+
+#medicaments{
+
+}
+
+#parapharm {
+    display: none;
+}
+
+#cloture-commande{
+    display: none;
+}
+
+#panier {
+    position: absolute;
+    min-width: 300px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+}
+#panier table{
+    color: white;
+}
+tr,td,th{
+    padding: 5px;
+}
+
+#panier th, tr, td{
+    border:1px solid black;
+}
+
+#documents{
+    max-height: 200px;
+    overflow: auto;
+    display: none;
+    width: 80%;
+    /* background-color: rgba(255,255,255,0.2); */
+    margin:  auto;
+}
+
+#documents table{
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
+    height:  150px;
+}
+
+#show-panier-btn {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#champ-filtre-produit{
+    width: 95%;
+    margin: 5px;
+    text-align:  center;
+    height: 35px;
+    font-size: 18px;
+}
+
+#valider-choix-btn{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height:  35px;
+    color: white;
+    background-color:  green;
+    font-size:  16px;
+    font-weight:  bold;
+    border:  none;
+    /* margin-top:  10px; */
+}
+#cloture-commande input[type="number"], #cloture-commande input[type="date"]{
+    
+width: 350px;
+    
+height:  35px;
+    
+text-align:  center;
+    
+font-size: 16px;
+    
+margin: 2.5px;
+    
+border: none;
+    
+background-color: rgba(255,255,255,0.8);
+}
+#cloture-commande button{
+    width:  350px;
+    height:  35px;
+    color: white;
+    font-size:  16px;
+    font-weight:  bold;
+    background-color:  green;
+    border:  none;
+    margin: 20px;
+}
+#cloture-commande h1{
+    margin: 20px 0 10px 0;
+}
+#medoc-tab-btn, #parapharm-tab-btn{
+    transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    width: 200px;
+    /* height:  35px; */
+    border: 2px solid white;
+    background-color:  transparent;
+    color:  white;
+    font-size:  16px;
+    font-style:  italic;
+    padding: 5px;
+    outline:  none;
+}
+#medoc-tab-btn:hover, #parapharm-tab-btn:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+#med-search h2{
+    
+margin:  10px;
+    
+color:  white;
+    
+font-size:  25px;
+    
+text-shadow:  1px 1px 1px black;
+}
+.medicament button:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+#documents h1{
+    font-size:  25px;
+}

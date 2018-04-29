@@ -1,0 +1,33 @@
+{% extends 'home-base.html' %}
+
+{% block type %}ADMIN{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{rootDir}}/static/css/custom/home-admin.css">
+{% endblock %}
+
+{% block content %}
+<button id="btn-creer-zone"><img src="{{rootDir}}/static/icons/map.png"><br>Créer une nouvelle zone de livraison</button>
+<button id="btn-creer-clef"><img src="{{rootDir}}/static/icons/key.png"><br>Générer clef inscription livreur</button>
+{% endblock %}
+
+{% block layer %}
+<form id="form-creer-zone" action="" method="POST" class="animated fadeInDown">
+    <input type="text" name="nomZone" placeholder="Nom de la zone" id="nomZone"><br>
+    <input type="number" name="rayon" placeholder="Rayon de la zone en KM" id="rayonZone">
+    <div id="googleMap"></div>
+    <input type="number" id="lat" class="hide" name="lat">
+    <input type="number" id="lng" class="hide" name="lng">
+    <button type="button" id="add-zone">Enregistrer Zone</button>
+</form>
+<div id="creer-livreur" class="animated fadeInDown">
+    <h1>Sélectionner zones</h1>
+    <select id="zones-select" multiple></select><br>
+    <button id="add-livreur-btn">Générer clef</button>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{{rootDir}}/static/js/custom/home-admin.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKvUEs0YG-qfExgDuIFM_xx45t7osnQ5E&callback=myMap"></script>
+{% endblock %}

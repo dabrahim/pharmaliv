@@ -1,0 +1,67 @@
+#details-pharmacie {display:  inline-block;background:  rgba(26,188,156,0.4);padding: 30px 30px;margin: 50px;}
+#details-pharmacie input[type='number']{
+    width: calc(150px - 2px);
+}
+#details-pharmacie input, #details-pharmacie textarea{
+    width:  300px;
+    height:  35px;
+    font-size:  15px;
+    padding:  5px;
+    margin:  2px;
+    border:  none;
+    background-color: rgba(255,255,255,0.8);
+}
+#details-pharmacie textarea{
+    height: 80px;
+}
+#details-pharmacie h1{
+    color:  white;
+    font-size: 35px;
+    margin: 20px;
+}
+#details-pharmacie  button{
+    width:  300px;
+    background-color:  green;
+    height:  35px;
+    font-size:  16px;
+    color: white;
+    font-weight:  bold;
+    border:  none;
+    margin:  5px;
+    /* opacity: 0.5; */
+}
+
+#position-pharmacie{
+    display: none;
+    /* border:2px solid black; */
+    height:  100%;
+    padding:  10px;
+}
+
+#googleMap{
+    width: 90%;
+    height: calc(100% - 116px);
+    margin:  auto;
+    border: 2px solid #1abc9c;
+}
+#form-info-pharmacie{
+    height: 100%;
+}
+#form-info-pharmacie h1{
+margin: 0 0 10px 0;
+}
+#form-info-pharmacie p{
+margin:  5px;
+font-size: 18px;
+}
+#form-info-pharmacie button{
+    background-color:  green;
+    font-size:  17px;
+    color:  white;
+    font-weight:  bold;
+    /* border: none; */
+    height:  35px;
+    padding:  0 50px;
+    margin: 5px;
+    border:  none;
+}

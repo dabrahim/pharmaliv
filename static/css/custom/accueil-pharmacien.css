@@ -1,0 +1,129 @@
+.notice {
+    background-color: beige;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#form-publication-produit{
+    border:1px solid black;
+    display: none;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    background-color: rgba(255,255,255,0.4);
+}
+#form-publication-produit input[type="text"], textarea, #form-publication-produit input[type="number"]{
+    width: 300px;
+    margin: 2.5px;
+    height: 35px;
+    padding: 5px;
+}
+#form-publication-produit textarea{
+    height: 150px;
+}
+#produit-notice{
+    display: none;
+}
+
+#gerer-commande{
+    display: none;
+    padding: 5px 20px 5px 20px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#gerer-commande .container{
+    text-align: left;
+}
+
+#products-summary{
+    margin-top: 20px;
+    background-color: white;
+}
+
+#products-summary table{
+    width: 100%;
+}
+#products-summary tr, #products-summary td, #products-summary th{
+    border: none;
+}
+
+#products-summary tr{
+    border-bottom: 1px solid lightgrey;
+}
+
+#products-summary th{
+    border-bottom: 3px solid lightgrey;
+}
+#products-summary h2{
+    margin:  0;
+    text-align:  center;
+    background-color:  gray;
+    padding: 10px;
+    color:  white;
+}
+
+#products-summary .total{
+    text-align: center;
+    padding: 5px;
+}
+
+.block {
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 250px;
+}
+
+.header{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+}
+
+.content{
+    padding: 5px;
+}
+#btn-valider-commande, #btn-publier-prod{
+    font-size:  18px;
+    padding:  10px;
+    background-color:  green;
+    border:  none;
+    color: white;
+    font-weight:  bold;
+    margin-top: 10px;
+}
+
+#commandes thead{
+    background-color: gray;
+    color: white;
+}
+#commandes th{
+    padding: 10px;
+    border: none;
+}
+
+#commandes table{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+#commandes h1{
+    text-align: center;
+}
+#commandes td{
+    border:none;
+    padding: 10px;
+}
+#commandes tr{
+    border: none;
+    border-bottom: 2px solid lightgrey;
+}
+button img{
+width:  35px;
+}
+#btn-publier-produit{font-size:  16px;margin: 5px 0 10px 0;padding:  5px;max-width: 200px;font-size: 17px;}

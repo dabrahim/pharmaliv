@@ -1,0 +1,39 @@
+{% extends 'home-base.html' %}
+
+{% block type %}LIVREUR{% endblock %}
+
+{% block content %}
+<form action="" method="POST" id="form-inscription-livreur">
+    <h1>INSCRIPTION</h1>
+    <input type="hidden" name="idUser" value="{{idUser}}">
+    <input type="text" name="nomComplet" placeholder="Nom Complet"><br>
+    <input type="email" name="email" placeholder="Email"><br>
+    <input type="password" name="motDePasse" placeholder="Mot de passe"><br>
+    <button type="submit">S'inscrire</button>
+</form>
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{rootDir}}/static/css/custom/inscription-livreur.css">
+{% endblock %}
+
+{% block scripts %}
+<!--<script type="text/javascript" src="{{rootDir}}/static/js/custom/inscription-livreur.js"></script>-->
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('#form-inscription-livreur').on('submit', function (e) {
+            e.preventDefault();
+
+            $.post('./inscription', $(this).serialize(), function (response) {
+                if (response.success){
+                    window.location = '{{rootDir}}/?show=login&email=' + response.email;
+                } else {
+                    alert(response.message);
+                }
+            }, 'json');
+        });
+
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,1267 @@
+Folder PATH listing for volume Windows
+Volume serial number is 9E12-A1A6
+C:.
+³   .htaccess
+³   composer.json
+³   composer.lock
+³   index.php
+³   tree.txt
+³   
+ÃÄÄÄ.idea
+³   ³   dataSources.local.xml
+³   ³   dataSources.xml
+³   ³   modules.xml
+³   ³   pharmaliv.iml
+³   ³   php.xml
+³   ³   workspace.xml
+³   ³   
+³   ÃÄÄÄdataSources
+³   ³       0212cfb5-54c9-41ea-a6e7-c1302d5f29dd.xml
+³   ³       
+³   ÀÄÄÄinspectionProfiles
+ÃÄÄÄcore
+³   ³   config.php
+³   ³   sections.php
+³   ³   
+³   ÀÄÄÄutils
+³           Action.class.php
+³           functions.php
+³           Request.class.php
+³           Response.class.php
+³           
+ÃÄÄÄpersistence
+³   ³   CustomPDO.php
+³   ³   
+³   ÃÄÄÄinterface
+³   ³       ClientDAO.class.php
+³   ³       CommandeDAO.class.php
+³   ³       DocumentDAO.class.php
+³   ³       LivreurDAO.class.php
+³   ³       NoticeDAO.class.php
+³   ³       NotificationDAO.class.php
+³   ³       PharmacieDAO.class.php
+³   ³       ProduitDAO.class.php
+³   ³       UtilisateurDAO.class.php
+³   ³       ZoneDAO.class.php
+³   ³       
+³   ÃÄÄÄmodel
+³   ³       Client.class.php
+³   ³       Commande.class.php
+³   ³       Document.class.php
+³   ³       Livreur.class.php
+³   ³       Notice.class.php
+³   ³       Notification.class.php
+³   ³       Pharmacie.class.php
+³   ³       Produit.class.php
+³   ³       Utilisateur.class.php
+³   ³       Zone.class.php
+³   ³       
+³   ÀÄÄÄservice
+³           ClientService.class.php
+³           CommandeService.class.php
+³           DocumentService.class.php
+³           LivreurService.class.php
+³           NoticeService.class.php
+³           NotificationService.class.php
+³           PharmacieService.class.php
+³           ProduitService.class.php
+³           UtilisateurService.class.php
+³           ZoneService.class.php
+³           
+ÃÄÄÄsrc
+³   ÃÄÄÄadmin
+³   ³   ³   actions.php
+³   ³   ³   urls.php
+³   ³   ³   
+³   ³   ÀÄÄÄtemplates
+³   ³           creer-livreur.html
+³   ³           home-admin.html
+³   ³           
+³   ÃÄÄÄclient
+³   ³   ³   actions.php
+³   ³   ³   urls.php
+³   ³   ³   
+³   ³   ÀÄÄÄtemplates
+³   ³           home-client.html
+³   ³           inscription-client.html
+³   ³           
+³   ÃÄÄÄlivreur
+³   ³   ³   actions.php
+³   ³   ³   urls.php
+³   ³   ³   
+³   ³   ÀÄÄÄtemplates
+³   ³           accueil-livreur.html
+³   ³           inscription-livreur.html
+³   ³           
+³   ÃÄÄÄpharmacien
+³   ³   ³   actions.php
+³   ³   ³   urls.php
+³   ³   ³   
+³   ³   ÀÄÄÄtemplates
+³   ³           accueil-pharmacien.html
+³   ³           inscription.html
+³   ³           pharm-profil-complete.html
+³   ³           
+³   ÀÄÄÄrest
+³           actions.php
+³           urls.php
+³           
+ÃÄÄÄstatic
+³   ÃÄÄÄcss
+³   ³   ³   404.css
+³   ³   ³   
+³   ³   ÃÄÄÄassets
+³   ³   ³       animate.css
+³   ³   ³       
+³   ³   ÀÄÄÄcustom
+³   ³           accueil-livreur.css
+³   ³           accueil-pharmacien.css
+³   ³           home-admin.css
+³   ³           home-client.css
+³   ³           home-page.css
+³   ³           inscription-client.css
+³   ³           inscription-livreur.css
+³   ³           inscription-pharmacien.css
+³   ³           pharm-profil-complete.css
+³   ³           style.css
+³   ³           
+³   ÃÄÄÄfonts
+³   ³       ufonts.com_century-gothic.ttf
+³   ³       ufonts.com_century_gothic__2_.eot
+³   ³       
+³   ÃÄÄÄicons
+³   ³       bald-pharmacist.png
+³   ³       client.png
+³   ³       delivery-man.png
+³   ³       doctor.png
+³   ³       drugs.png
+³   ³       key.png
+³   ³       map.png
+³   ³       pill.png
+³   ³       shopping-cart.png
+³   ³       
+³   ÃÄÄÄimages
+³   ³       162.jpg
+³   ³       hb-blurred.jpg
+³   ³       
+³   ÀÄÄÄjs
+³       ÃÄÄÄassets
+³       ³       jquery-3.2.1.js
+³       ³       
+³       ÀÄÄÄcustom
+³               accueil-pharmacien.js
+³               functions.js
+³               home-admin.js
+³               home-client.js
+³               home.js
+³               inscription-client.js
+³               inscription-livreur.js
+³               pharm-profil-complete.js
+³               
+ÃÄÄÄtemplates
+³       404.html
+³       base.html
+³       home-base.html
+³       home.html
+³       
+ÃÄÄÄuploads
+³       02cyIyXS9l9w8onc19K9.jpg
+³       0SOnp1v8uK0nRKEAChiJ.jpg
+³       25NVTG6slDmwuaq5VZDB.jpg
+³       2AKXkTuBEGFKGjLrGBIj.pdf
+³       2kVOrJlJj1M9CMWpP73k.pdf
+³       3hSeTsT6Own0VD9UPyAh.jpg
+³       7Secp9tUjNF9T1FULxOC.jpg
+³       bHBo9u7UfGyGWn7zcbxV.png
+³       c5oIztqRID6uLPgxgKgv.pdf
+³       ghfCdzjEAVQRkXxAUJCG.pdf
+³       guKjIPTfG9YaSOt9xEkN.pdf
+³       KHdpDkTIOoUzevYkmKiO.jpg
+³       KVwZO6y0NGn5LUNflubW.jpg
+³       l2gh8fpdBD5YOp7ynhRp.pdf
+³       lW0rT7Cp3w0k2Y9MzPvR.pdf
+³       UXeeJZzznn0DibMes3AK.pdf
+³       vmdfy5QxtrGCjCzrHkRt.jpg
+³       vNwBOY6y5xcvi5wMUHif.jpg
+³       yECWIGCUjuITwVSt6jyK.pdf
+³       
+ÀÄÄÄvendor
+    ³   autoload.php
+    ³   
+    ÃÄÄÄcomposer
+    ³       autoload_classmap.php
+    ³       autoload_namespaces.php
+    ³       autoload_psr4.php
+    ³       autoload_real.php
+    ³       autoload_static.php
+    ³       ClassLoader.php
+    ³       installed.json
+    ³       LICENSE
+    ³       
+    ÀÄÄÄtwig
+        ÀÄÄÄtwig
+            ³   .editorconfig
+            ³   .gitignore
+            ³   .php_cs.dist
+            ³   .travis.yml
+            ³   CHANGELOG
+            ³   composer.json
+            ³   LICENSE
+            ³   phpunit.xml.dist
+            ³   README.rst
+            ³   
+            ÃÄÄÄdoc
+            ³   ³   advanced.rst
+            ³   ³   advanced_legacy.rst
+            ³   ³   api.rst
+            ³   ³   coding_standards.rst
+            ³   ³   deprecated.rst
+            ³   ³   index.rst
+            ³   ³   installation.rst
+            ³   ³   internals.rst
+            ³   ³   intro.rst
+            ³   ³   recipes.rst
+            ³   ³   templates.rst
+            ³   ³   
+            ³   ÃÄÄÄfilters
+            ³   ³       abs.rst
+            ³   ³       batch.rst
+            ³   ³       capitalize.rst
+            ³   ³       convert_encoding.rst
+            ³   ³       date.rst
+            ³   ³       date_modify.rst
+            ³   ³       default.rst
+            ³   ³       escape.rst
+            ³   ³       first.rst
+            ³   ³       format.rst
+            ³   ³       index.rst
+            ³   ³       join.rst
+            ³   ³       json_encode.rst
+            ³   ³       keys.rst
+            ³   ³       last.rst
+            ³   ³       length.rst
+            ³   ³       lower.rst
+            ³   ³       merge.rst
+            ³   ³       nl2br.rst
+            ³   ³       number_format.rst
+            ³   ³       raw.rst
+            ³   ³       replace.rst
+            ³   ³       reverse.rst
+            ³   ³       round.rst
+            ³   ³       slice.rst
+            ³   ³       sort.rst
+            ³   ³       split.rst
+            ³   ³       striptags.rst
+            ³   ³       title.rst
+            ³   ³       trim.rst
+            ³   ³       upper.rst
+            ³   ³       url_encode.rst
+            ³   ³       
+            ³   ÃÄÄÄfunctions
+            ³   ³       attribute.rst
+            ³   ³       block.rst
+            ³   ³       constant.rst
+            ³   ³       cycle.rst
+            ³   ³       date.rst
+            ³   ³       dump.rst
+            ³   ³       include.rst
+            ³   ³       index.rst
+            ³   ³       max.rst
+            ³   ³       min.rst
+            ³   ³       parent.rst
+            ³   ³       random.rst
+            ³   ³       range.rst
+            ³   ³       source.rst
+            ³   ³       template_from_string.rst
+            ³   ³       
+            ³   ÃÄÄÄtags
+            ³   ³       autoescape.rst
+            ³   ³       block.rst
+            ³   ³       do.rst
+            ³   ³       embed.rst
+            ³   ³       extends.rst
+            ³   ³       filter.rst
+            ³   ³       flush.rst
+            ³   ³       for.rst
+            ³   ³       from.rst
+            ³   ³       if.rst
+            ³   ³       import.rst
+            ³   ³       include.rst
+            ³   ³       index.rst
+            ³   ³       macro.rst
+            ³   ³       sandbox.rst
+            ³   ³       set.rst
+            ³   ³       spaceless.rst
+            ³   ³       use.rst
+            ³   ³       verbatim.rst
+            ³   ³       with.rst
+            ³   ³       
+            ³   ÀÄÄÄtests
+            ³           constant.rst
+            ³           defined.rst
+            ³           divisibleby.rst
+            ³           empty.rst
+            ³           even.rst
+            ³           index.rst
+            ³           iterable.rst
+            ³           null.rst
+            ³           odd.rst
+            ³           sameas.rst
+            ³           
+            ÃÄÄÄext
+            ³   ÀÄÄÄtwig
+            ³           .gitignore
+            ³           config.m4
+            ³           config.w32
+            ³           php_twig.h
+            ³           twig.c
+            ³           
+            ÃÄÄÄlib
+            ³   ÀÄÄÄTwig
+            ³       ³   Autoloader.php
+            ³       ³   BaseNodeVisitor.php
+            ³       ³   CacheInterface.php
+            ³       ³   Compiler.php
+            ³       ³   CompilerInterface.php
+            ³       ³   ContainerRuntimeLoader.php
+            ³       ³   Environment.php
+            ³       ³   Error.php
+            ³       ³   ExistsLoaderInterface.php
+            ³       ³   ExpressionParser.php
+            ³       ³   Extension.php
+            ³       ³   ExtensionInterface.php
+            ³       ³   FactoryRuntimeLoader.php
+            ³       ³   FileExtensionEscapingStrategy.php
+            ³       ³   Filter.php
+            ³       ³   FilterCallableInterface.php
+            ³       ³   FilterInterface.php
+            ³       ³   Function.php
+            ³       ³   FunctionCallableInterface.php
+            ³       ³   FunctionInterface.php
+            ³       ³   Lexer.php
+            ³       ³   LexerInterface.php
+            ³       ³   LoaderInterface.php
+            ³       ³   Markup.php
+            ³       ³   Node.php
+            ³       ³   NodeCaptureInterface.php
+            ³       ³   NodeInterface.php
+            ³       ³   NodeOutputInterface.php
+            ³       ³   NodeTraverser.php
+            ³       ³   NodeVisitorInterface.php
+            ³       ³   Parser.php
+            ³       ³   ParserInterface.php
+            ³       ³   RuntimeLoaderInterface.php
+            ³       ³   SimpleFilter.php
+            ³       ³   SimpleFunction.php
+            ³       ³   SimpleTest.php
+            ³       ³   Source.php
+            ³       ³   SourceContextLoaderInterface.php
+            ³       ³   Template.php
+            ³       ³   TemplateInterface.php
+            ³       ³   TemplateWrapper.php
+            ³       ³   Test.php
+            ³       ³   TestCallableInterface.php
+            ³       ³   TestInterface.php
+            ³       ³   Token.php
+            ³       ³   TokenParser.php
+            ³       ³   TokenParserBroker.php
+            ³       ³   TokenParserBrokerInterface.php
+            ³       ³   TokenParserInterface.php
+            ³       ³   TokenStream.php
+            ³       ³   
+            ³       ÃÄÄÄCache
+            ³       ³       Filesystem.php
+            ³       ³       Null.php
+            ³       ³       
+            ³       ÃÄÄÄError
+            ³       ³       Loader.php
+            ³       ³       Runtime.php
+            ³       ³       Syntax.php
+            ³       ³       
+            ³       ÃÄÄÄExtension
+            ³       ³       Core.php
+            ³       ³       Debug.php
+            ³       ³       Escaper.php
+            ³       ³       GlobalsInterface.php
+            ³       ³       InitRuntimeInterface.php
+            ³       ³       Optimizer.php
+            ³       ³       Profiler.php
+            ³       ³       Sandbox.php
+            ³       ³       Staging.php
+            ³       ³       StringLoader.php
+            ³       ³       
+            ³       ÃÄÄÄFilter
+            ³       ³       Function.php
+            ³       ³       Method.php
+            ³       ³       Node.php
+            ³       ³       
+            ³       ÃÄÄÄFunction
+            ³       ³       Function.php
+            ³       ³       Method.php
+            ³       ³       Node.php
+            ³       ³       
+            ³       ÃÄÄÄLoader
+            ³       ³       Array.php
+            ³       ³       Chain.php
+            ³       ³       Filesystem.php
+            ³       ³       String.php
+            ³       ³       
+            ³       ÃÄÄÄNode
+            ³       ³   ³   AutoEscape.php
+            ³       ³   ³   Block.php
+            ³       ³   ³   BlockReference.php
+            ³       ³   ³   Body.php
+            ³       ³   ³   CheckSecurity.php
+            ³       ³   ³   Do.php
+            ³       ³   ³   Embed.php
+            ³       ³   ³   Expression.php
+            ³       ³   ³   Flush.php
+            ³       ³   ³   For.php
+            ³       ³   ³   ForLoop.php
+            ³       ³   ³   If.php
+            ³       ³   ³   Import.php
+            ³       ³   ³   Include.php
+            ³       ³   ³   Macro.php
+            ³       ³   ³   Module.php
+            ³       ³   ³   Print.php
+            ³       ³   ³   Sandbox.php
+            ³       ³   ³   SandboxedPrint.php
+            ³       ³   ³   Set.php
+            ³       ³   ³   SetTemp.php
+            ³       ³   ³   Spaceless.php
+            ³       ³   ³   Text.php
+            ³       ³   ³   With.php
+            ³       ³   ³   
+            ³       ³   ÀÄÄÄExpression
+            ³       ³       ³   Array.php
+            ³       ³       ³   AssignName.php
+            ³       ³       ³   Binary.php
+            ³       ³       ³   BlockReference.php
+            ³       ³       ³   Call.php
+            ³       ³       ³   Conditional.php
+            ³       ³       ³   Constant.php
+            ³       ³       ³   ExtensionReference.php
+            ³       ³       ³   Filter.php
+            ³       ³       ³   Function.php
+            ³       ³       ³   GetAttr.php
+            ³       ³       ³   MethodCall.php
+            ³       ³       ³   Name.php
+            ³       ³       ³   NullCoalesce.php
+            ³       ³       ³   Parent.php
+            ³       ³       ³   TempName.php
+            ³       ³       ³   Test.php
+            ³       ³       ³   Unary.php
+            ³       ³       ³   
+            ³       ³       ÃÄÄÄBinary
+            ³       ³       ³       Add.php
+            ³       ³       ³       And.php
+            ³       ³       ³       BitwiseAnd.php
+            ³       ³       ³       BitwiseOr.php
+            ³       ³       ³       BitwiseXor.php
+            ³       ³       ³       Concat.php
+            ³       ³       ³       Div.php
+            ³       ³       ³       EndsWith.php
+            ³       ³       ³       Equal.php
+            ³       ³       ³       FloorDiv.php
+            ³       ³       ³       Greater.php
+            ³       ³       ³       GreaterEqual.php
+            ³       ³       ³       In.php
+            ³       ³       ³       Less.php
+            ³       ³       ³       LessEqual.php
+            ³       ³       ³       Matches.php
+            ³       ³       ³       Mod.php
+            ³       ³       ³       Mul.php
+            ³       ³       ³       NotEqual.php
+            ³       ³       ³       NotIn.php
+            ³       ³       ³       Or.php
+            ³       ³       ³       Power.php
+            ³       ³       ³       Range.php
+            ³       ³       ³       StartsWith.php
+            ³       ³       ³       Sub.php
+            ³       ³       ³       
+            ³       ³       ÃÄÄÄFilter
+            ³       ³       ³       Default.php
+            ³       ³       ³       
+            ³       ³       ÃÄÄÄTest
+            ³       ³       ³       Constant.php
+            ³       ³       ³       Defined.php
+            ³       ³       ³       Divisibleby.php
+            ³       ³       ³       Even.php
+            ³       ³       ³       Null.php
+            ³       ³       ³       Odd.php
+            ³       ³       ³       Sameas.php
+            ³       ³       ³       
+            ³       ³       ÀÄÄÄUnary
+            ³       ³               Neg.php
+            ³       ³               Not.php
+            ³       ³               Pos.php
+            ³       ³               
+            ³       ÃÄÄÄNodeVisitor
+            ³       ³       Escaper.php
+            ³       ³       Optimizer.php
+            ³       ³       SafeAnalysis.php
+            ³       ³       Sandbox.php
+            ³       ³       
+            ³       ÃÄÄÄProfiler
+            ³       ³   ³   Profile.php
+            ³       ³   ³   
+            ³       ³   ÃÄÄÄDumper
+            ³       ³   ³       Base.php
+            ³       ³   ³       Blackfire.php
+            ³       ³   ³       Html.php
+            ³       ³   ³       Text.php
+            ³       ³   ³       
+            ³       ³   ÃÄÄÄNode
+            ³       ³   ³       EnterProfile.php
+            ³       ³   ³       LeaveProfile.php
+            ³       ³   ³       
+            ³       ³   ÀÄÄÄNodeVisitor
+            ³       ³           Profiler.php
+            ³       ³           
+            ³       ÃÄÄÄSandbox
+            ³       ³       SecurityError.php
+            ³       ³       SecurityNotAllowedFilterError.php
+            ³       ³       SecurityNotAllowedFunctionError.php
+            ³       ³       SecurityNotAllowedMethodError.php
+            ³       ³       SecurityNotAllowedPropertyError.php
+            ³       ³       SecurityNotAllowedTagError.php
+            ³       ³       SecurityPolicy.php
+            ³       ³       SecurityPolicyInterface.php
+            ³       ³       
+            ³       ÃÄÄÄTest
+            ³       ³       Function.php
+            ³       ³       IntegrationTestCase.php
+            ³       ³       Method.php
+            ³       ³       Node.php
+            ³       ³       NodeTestCase.php
+            ³       ³       
+            ³       ÃÄÄÄTokenParser
+            ³       ³       AutoEscape.php
+            ³       ³       Block.php
+            ³       ³       Do.php
+            ³       ³       Embed.php
+            ³       ³       Extends.php
+            ³       ³       Filter.php
+            ³       ³       Flush.php
+            ³       ³       For.php
+            ³       ³       From.php
+            ³       ³       If.php
+            ³       ³       Import.php
+            ³       ³       Include.php
+            ³       ³       Macro.php
+            ³       ³       Sandbox.php
+            ³       ³       Set.php
+            ³       ³       Spaceless.php
+            ³       ³       Use.php
+            ³       ³       With.php
+            ³       ³       
+            ³       ÀÄÄÄUtil
+            ³               DeprecationCollector.php
+            ³               TemplateDirIterator.php
+            ³               
+            ÃÄÄÄsrc
+            ³   ³   Compiler.php
+            ³   ³   Environment.php
+            ³   ³   ExpressionParser.php
+            ³   ³   FileExtensionEscapingStrategy.php
+            ³   ³   Lexer.php
+            ³   ³   Markup.php
+            ³   ³   NodeTraverser.php
+            ³   ³   Parser.php
+            ³   ³   Source.php
+            ³   ³   Template.php
+            ³   ³   TemplateWrapper.php
+            ³   ³   Token.php
+            ³   ³   TokenStream.php
+            ³   ³   TwigFilter.php
+            ³   ³   TwigFunction.php
+            ³   ³   TwigTest.php
+            ³   ³   
+            ³   ÃÄÄÄCache
+            ³   ³       CacheInterface.php
+            ³   ³       FilesystemCache.php
+            ³   ³       NullCache.php
+            ³   ³       
+            ³   ÃÄÄÄError
+            ³   ³       Error.php
+            ³   ³       LoaderError.php
+            ³   ³       RuntimeError.php
+            ³   ³       SyntaxError.php
+            ³   ³       
+            ³   ÃÄÄÄExtension
+            ³   ³       AbstractExtension.php
+            ³   ³       CoreExtension.php
+            ³   ³       DebugExtension.php
+            ³   ³       EscaperExtension.php
+            ³   ³       ExtensionInterface.php
+            ³   ³       GlobalsInterface.php
+            ³   ³       InitRuntimeInterface.php
+            ³   ³       OptimizerExtension.php
+            ³   ³       ProfilerExtension.php
+            ³   ³       RuntimeExtensionInterface.php
+            ³   ³       SandboxExtension.php
+            ³   ³       StagingExtension.php
+            ³   ³       StringLoaderExtension.php
+            ³   ³       
+            ³   ÃÄÄÄLoader
+            ³   ³       ArrayLoader.php
+            ³   ³       ChainLoader.php
+            ³   ³       ExistsLoaderInterface.php
+            ³   ³       FilesystemLoader.php
+            ³   ³       LoaderInterface.php
+            ³   ³       SourceContextLoaderInterface.php
+            ³   ³       
+            ³   ÃÄÄÄNode
+            ³   ³   ³   AutoEscapeNode.php
+            ³   ³   ³   BlockNode.php
+            ³   ³   ³   BlockReferenceNode.php
+            ³   ³   ³   BodyNode.php
+            ³   ³   ³   CheckSecurityNode.php
+            ³   ³   ³   DoNode.php
+            ³   ³   ³   EmbedNode.php
+            ³   ³   ³   FlushNode.php
+            ³   ³   ³   ForLoopNode.php
+            ³   ³   ³   ForNode.php
+            ³   ³   ³   IfNode.php
+            ³   ³   ³   ImportNode.php
+            ³   ³   ³   IncludeNode.php
+            ³   ³   ³   MacroNode.php
+            ³   ³   ³   ModuleNode.php
+            ³   ³   ³   Node.php
+            ³   ³   ³   NodeCaptureInterface.php
+            ³   ³   ³   NodeOutputInterface.php
+            ³   ³   ³   PrintNode.php
+            ³   ³   ³   SandboxedPrintNode.php
+            ³   ³   ³   SandboxNode.php
+            ³   ³   ³   SetNode.php
+            ³   ³   ³   SetTempNode.php
+            ³   ³   ³   SpacelessNode.php
+            ³   ³   ³   TextNode.php
+            ³   ³   ³   WithNode.php
+            ³   ³   ³   
+            ³   ³   ÀÄÄÄExpression
+            ³   ³       ³   AbstractExpression.php
+            ³   ³       ³   ArrayExpression.php
+            ³   ³       ³   AssignNameExpression.php
+            ³   ³       ³   BlockReferenceExpression.php
+            ³   ³       ³   CallExpression.php
+            ³   ³       ³   ConditionalExpression.php
+            ³   ³       ³   ConstantExpression.php
+            ³   ³       ³   FilterExpression.php
+            ³   ³       ³   FunctionExpression.php
+            ³   ³       ³   GetAttrExpression.php
+            ³   ³       ³   MethodCallExpression.php
+            ³   ³       ³   NameExpression.php
+            ³   ³       ³   NullCoalesceExpression.php
+            ³   ³       ³   ParentExpression.php
+            ³   ³       ³   TempNameExpression.php
+            ³   ³       ³   TestExpression.php
+            ³   ³       ³   
+            ³   ³       ÃÄÄÄBinary
+            ³   ³       ³       AbstractBinary.php
+            ³   ³       ³       AddBinary.php
+            ³   ³       ³       AndBinary.php
+            ³   ³       ³       BitwiseAndBinary.php
+            ³   ³       ³       BitwiseOrBinary.php
+            ³   ³       ³       BitwiseXorBinary.php
+            ³   ³       ³       ConcatBinary.php
+            ³   ³       ³       DivBinary.php
+            ³   ³       ³       EndsWithBinary.php
+            ³   ³       ³       EqualBinary.php
+            ³   ³       ³       FloorDivBinary.php
+            ³   ³       ³       GreaterBinary.php
+            ³   ³       ³       GreaterEqualBinary.php
+            ³   ³       ³       InBinary.php
+            ³   ³       ³       LessBinary.php
+            ³   ³       ³       LessEqualBinary.php
+            ³   ³       ³       MatchesBinary.php
+            ³   ³       ³       ModBinary.php
+            ³   ³       ³       MulBinary.php
+            ³   ³       ³       NotEqualBinary.php
+            ³   ³       ³       NotInBinary.php
+            ³   ³       ³       OrBinary.php
+            ³   ³       ³       PowerBinary.php
+            ³   ³       ³       RangeBinary.php
+            ³   ³       ³       StartsWithBinary.php
+            ³   ³       ³       SubBinary.php
+            ³   ³       ³       
+            ³   ³       ÃÄÄÄFilter
+            ³   ³       ³       DefaultFilter.php
+            ³   ³       ³       
+            ³   ³       ÃÄÄÄTest
+            ³   ³       ³       ConstantTest.php
+            ³   ³       ³       DefinedTest.php
+            ³   ³       ³       DivisiblebyTest.php
+            ³   ³       ³       EvenTest.php
+            ³   ³       ³       NullTest.php
+            ³   ³       ³       OddTest.php
+            ³   ³       ³       SameasTest.php
+            ³   ³       ³       
+            ³   ³       ÀÄÄÄUnary
+            ³   ³               AbstractUnary.php
+            ³   ³               NegUnary.php
+            ³   ³               NotUnary.php
+            ³   ³               PosUnary.php
+            ³   ³               
+            ³   ÃÄÄÄNodeVisitor
+            ³   ³       AbstractNodeVisitor.php
+            ³   ³       EscaperNodeVisitor.php
+            ³   ³       NodeVisitorInterface.php
+            ³   ³       OptimizerNodeVisitor.php
+            ³   ³       SafeAnalysisNodeVisitor.php
+            ³   ³       SandboxNodeVisitor.php
+            ³   ³       
+            ³   ÃÄÄÄProfiler
+            ³   ³   ³   Profile.php
+            ³   ³   ³   
+            ³   ³   ÃÄÄÄDumper
+            ³   ³   ³       BaseDumper.php
+            ³   ³   ³       BlackfireDumper.php
+            ³   ³   ³       HtmlDumper.php
+            ³   ³   ³       TextDumper.php
+            ³   ³   ³       
+            ³   ³   ÃÄÄÄNode
+            ³   ³   ³       EnterProfileNode.php
+            ³   ³   ³       LeaveProfileNode.php
+            ³   ³   ³       
+            ³   ³   ÀÄÄÄNodeVisitor
+            ³   ³           ProfilerNodeVisitor.php
+            ³   ³           
+            ³   ÃÄÄÄRuntimeLoader
+            ³   ³       ContainerRuntimeLoader.php
+            ³   ³       FactoryRuntimeLoader.php
+            ³   ³       RuntimeLoaderInterface.php
+            ³   ³       
+            ³   ÃÄÄÄSandbox
+            ³   ³       SecurityError.php
+            ³   ³       SecurityNotAllowedFilterError.php
+            ³   ³       SecurityNotAllowedFunctionError.php
+            ³   ³       SecurityNotAllowedMethodError.php
+            ³   ³       SecurityNotAllowedPropertyError.php
+            ³   ³       SecurityNotAllowedTagError.php
+            ³   ³       SecurityPolicy.php
+            ³   ³       SecurityPolicyInterface.php
+            ³   ³       
+            ³   ÃÄÄÄTest
+            ³   ³       IntegrationTestCase.php
+            ³   ³       NodeTestCase.php
+            ³   ³       
+            ³   ÃÄÄÄTokenParser
+            ³   ³       AbstractTokenParser.php
+            ³   ³       AutoEscapeTokenParser.php
+            ³   ³       BlockTokenParser.php
+            ³   ³       DoTokenParser.php
+            ³   ³       EmbedTokenParser.php
+            ³   ³       ExtendsTokenParser.php
+            ³   ³       FilterTokenParser.php
+            ³   ³       FlushTokenParser.php
+            ³   ³       ForTokenParser.php
+            ³   ³       FromTokenParser.php
+            ³   ³       IfTokenParser.php
+            ³   ³       ImportTokenParser.php
+            ³   ³       IncludeTokenParser.php
+            ³   ³       MacroTokenParser.php
+            ³   ³       SandboxTokenParser.php
+            ³   ³       SetTokenParser.php
+            ³   ³       SpacelessTokenParser.php
+            ³   ³       TokenParserInterface.php
+            ³   ³       UseTokenParser.php
+            ³   ³       WithTokenParser.php
+            ³   ³       
+            ³   ÀÄÄÄUtil
+            ³           DeprecationCollector.php
+            ³           TemplateDirIterator.php
+            ³           
+            ÀÄÄÄtest
+                ÀÄÄÄTwig
+                    ÀÄÄÄTests
+                        ³   AutoloaderTest.php
+                        ³   CompilerTest.php
+                        ³   ContainerRuntimeLoaderTest.php
+                        ³   CustomExtensionTest.php
+                        ³   EnvironmentTest.php
+                        ³   ErrorTest.php
+                        ³   escapingTest.php
+                        ³   ExpressionParserTest.php
+                        ³   FactoryRuntimeLoaderTest.php
+                        ³   FileCachingTest.php
+                        ³   FileExtensionEscapingStrategyTest.php
+                        ³   FilesystemHelper.php
+                        ³   IntegrationTest.php
+                        ³   LegacyIntegrationTest.php
+                        ³   LexerTest.php
+                        ³   NativeExtensionTest.php
+                        ³   ParserTest.php
+                        ³   TemplateTest.php
+                        ³   TemplateWrapperTest.php
+                        ³   TokenStreamTest.php
+                        ³   
+                        ÃÄÄÄCache
+                        ³       FilesystemTest.php
+                        ³       
+                        ÃÄÄÄExtension
+                        ³       CoreTest.php
+                        ³       SandboxTest.php
+                        ³       
+                        ÃÄÄÄFixtures
+                        ³   ÃÄÄÄautoescape
+                        ³   ³       block.test
+                        ³   ³       name.test
+                        ³   ³       
+                        ³   ÃÄÄÄerrors
+                        ³   ³       base.html
+                        ³   ³       index.html
+                        ³   ³       
+                        ³   ÃÄÄÄexceptions
+                        ³   ³       child_contents_outside_blocks.test
+                        ³   ³       multiline_array_with_undefined_variable.test
+                        ³   ³       multiline_array_with_undefined_variable_again.test
+                        ³   ³       multiline_function_with_undefined_variable.test
+                        ³   ³       multiline_function_with_unknown_argument.test
+                        ³   ³       multiline_tag_with_undefined_variable.test
+                        ³   ³       strict_comparison_operator.test
+                        ³   ³       syntax_error_in_reused_template.test
+                        ³   ³       unclosed_tag.test
+                        ³   ³       undefined_parent.test
+                        ³   ³       undefined_template_in_child_template.test
+                        ³   ³       undefined_trait.test
+                        ³   ³       
+                        ³   ÃÄÄÄexpressions
+                        ³   ³       array.test
+                        ³   ³       array_call.test
+                        ³   ³       binary.test
+                        ³   ³       bitwise.test
+                        ³   ³       comparison.test
+                        ³   ³       divisibleby.test
+                        ³   ³       dotdot.test
+                        ³   ³       ends_with.test
+                        ³   ³       grouping.test
+                        ³   ³       literals.test
+                        ³   ³       magic_call.test
+                        ³   ³       matches.test
+                        ³   ³       method_call.test
+                        ³   ³       negative_numbers.test
+                        ³   ³       operators_as_variables.test
+                        ³   ³       postfix.test
+                        ³   ³       power.test
+                        ³   ³       sameas.test
+                        ³   ³       starts_with.test
+                        ³   ³       strings.test
+                        ³   ³       ternary_operator.test
+                        ³   ³       ternary_operator_noelse.test
+                        ³   ³       ternary_operator_nothen.test
+                        ³   ³       two_word_operators_as_variables.test
+                        ³   ³       unary.test
+                        ³   ³       unary_macro_arguments.test
+                        ³   ³       unary_precedence.test
+                        ³   ³       _self.test
+                        ³   ³       
+                        ³   ÃÄÄÄfilters
+                        ³   ³       abs.test
+                        ³   ³       batch.test
+                        ³   ³       batch_float.test
+                        ³   ³       batch_with_empty_fill.test
+                        ³   ³       batch_with_exact_elements.test
+                        ³   ³       batch_with_fill.test
+                        ³   ³       batch_with_keys.test
+                        ³   ³       batch_with_zero_elements.test
+                        ³   ³       convert_encoding.test
+                        ³   ³       date.test
+                        ³   ³       date_default_format.test
+                        ³   ³       date_default_format_interval.test
+                        ³   ³       date_immutable.test
+                        ³   ³       date_interval.test
+                        ³   ³       date_modify.test
+                        ³   ³       date_namedargs.test
+                        ³   ³       default.test
+                        ³   ³       dynamic_filter.test
+                        ³   ³       escape.test
+                        ³   ³       escape_html_attr.test
+                        ³   ³       escape_javascript.test
+                        ³   ³       escape_non_supported_charset.test
+                        ³   ³       first.test
+                        ³   ³       force_escape.test
+                        ³   ³       format.test
+                        ³   ³       join.test
+                        ³   ³       json_encode.test
+                        ³   ³       last.test
+                        ³   ³       length.test
+                        ³   ³       length_utf8.test
+                        ³   ³       merge.test
+                        ³   ³       nl2br.test
+                        ³   ³       number_format.test
+                        ³   ³       number_format_default.test
+                        ³   ³       replace.test
+                        ³   ³       replace_invalid_arg.test
+                        ³   ³       reverse.test
+                        ³   ³       round.test
+                        ³   ³       slice.test
+                        ³   ³       sort.test
+                        ³   ³       special_chars.test
+                        ³   ³       split.test
+                        ³   ³       split_utf8.test
+                        ³   ³       static_calls.test
+                        ³   ³       trim.test
+                        ³   ³       urlencode.test
+                        ³   ³       urlencode_deprecated.test
+                        ³   ³       
+                        ³   ÃÄÄÄfunctions
+                        ³   ³   ³   attribute.test
+                        ³   ³   ³   block.test
+                        ³   ³   ³   block_without_name.test
+                        ³   ³   ³   block_with_template.test
+                        ³   ³   ³   constant.test
+                        ³   ³   ³   cycle.test
+                        ³   ³   ³   date.test
+                        ³   ³   ³   date_namedargs.test
+                        ³   ³   ³   dump.test
+                        ³   ³   ³   dump_array.test
+                        ³   ³   ³   dynamic_function.test
+                        ³   ³   ³   magic_call.test
+                        ³   ³   ³   magic_call53.test
+                        ³   ³   ³   max.test
+                        ³   ³   ³   min.test
+                        ³   ³   ³   range.test
+                        ³   ³   ³   recursive_block_with_inheritance.test
+                        ³   ³   ³   source.test
+                        ³   ³   ³   special_chars.test
+                        ³   ³   ³   static_calls.test
+                        ³   ³   ³   template_from_string.test
+                        ³   ³   ³   
+                        ³   ³   ÀÄÄÄinclude
+                        ³   ³           assignment.test
+                        ³   ³           autoescaping.test
+                        ³   ³           basic.test
+                        ³   ³           expression.test
+                        ³   ³           ignore_missing.test
+                        ³   ³           missing.test
+                        ³   ³           missing_nested.test
+                        ³   ³           sandbox.test
+                        ³   ³           sandbox_disabling.test
+                        ³   ³           sandbox_disabling_ignore_missing.test
+                        ³   ³           templates_as_array.test
+                        ³   ³           template_instance.test
+                        ³   ³           with_context.test
+                        ³   ³           with_variables.test
+                        ³   ³           
+                        ³   ÃÄÄÄmacros
+                        ³   ³       default_values.test
+                        ³   ³       nested_calls.test
+                        ³   ³       reserved_variables.test
+                        ³   ³       simple.test
+                        ³   ³       varargs.test
+                        ³   ³       varargs_argument.test
+                        ³   ³       with_filters.test
+                        ³   ³       
+                        ³   ÃÄÄÄregression
+                        ³   ³       block_names_unicity.test
+                        ³   ³       combined_debug_info.test
+                        ³   ³       empty_token.test
+                        ³   ³       issue_1143.test
+                        ³   ³       multi_word_tests.test
+                        ³   ³       simple_xml_element.test
+                        ³   ³       strings_like_numbers.test
+                        ³   ³       
+                        ³   ÃÄÄÄtags
+                        ³   ³   ³   from.test
+                        ³   ³   ³   special_chars.test
+                        ³   ³   ³   trim_block.test
+                        ³   ³   ³   
+                        ³   ³   ÃÄÄÄautoescape
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       blocks.test
+                        ³   ³   ³       double_escaping.test
+                        ³   ³   ³       functions.test
+                        ³   ³   ³       literal.test
+                        ³   ³   ³       nested.test
+                        ³   ³   ³       objects.test
+                        ³   ³   ³       raw.test
+                        ³   ³   ³       strategy.legacy.test
+                        ³   ³   ³       strategy.test
+                        ³   ³   ³       type.test
+                        ³   ³   ³       with_filters.test
+                        ³   ³   ³       with_filters_arguments.test
+                        ³   ³   ³       with_preserves_safety_filters.test
+                        ³   ³   ³       with_pre_escape_filters.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄblock
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       block_unique_name.test
+                        ³   ³   ³       special_chars.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄembed
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       complex_dynamic_parent.test
+                        ³   ³   ³       dynamic_parent.test
+                        ³   ³   ³       error_line.test
+                        ³   ³   ³       multiple.test
+                        ³   ³   ³       nested.test
+                        ³   ³   ³       with_extends.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄfilter
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       json_encode.test
+                        ³   ³   ³       multiple.test
+                        ³   ³   ³       nested.test
+                        ³   ³   ³       with_for_tag.test
+                        ³   ³   ³       with_if_tag.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄfor
+                        ³   ³   ³       condition.test
+                        ³   ³   ³       context.test
+                        ³   ³   ³       else.test
+                        ³   ³   ³       inner_variables.test
+                        ³   ³   ³       keys.test
+                        ³   ³   ³       keys_and_values.test
+                        ³   ³   ³       loop_context.test
+                        ³   ³   ³       loop_context_local.test
+                        ³   ³   ³       loop_not_defined.test
+                        ³   ³   ³       loop_not_defined_cond.test
+                        ³   ³   ³       nested_else.test
+                        ³   ³   ³       objects.test
+                        ³   ³   ³       objects_countable.test
+                        ³   ³   ³       recursive.test
+                        ³   ³   ³       values.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄif
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       expression.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄinclude
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       expression.test
+                        ³   ³   ³       ignore_missing.test
+                        ³   ³   ³       missing.test
+                        ³   ³   ³       missing_nested.test
+                        ³   ³   ³       only.test
+                        ³   ³   ³       templates_as_array.test
+                        ³   ³   ³       template_instance.test
+                        ³   ³   ³       with_variables.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄinheritance
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       block_expr.test
+                        ³   ³   ³       block_expr2.test
+                        ³   ³   ³       conditional.test
+                        ³   ³   ³       dynamic.test
+                        ³   ³   ³       empty.test
+                        ³   ³   ³       extends_as_array.test
+                        ³   ³   ³       extends_as_array_with_empty_name.test
+                        ³   ³   ³       extends_as_array_with_null_name.test
+                        ³   ³   ³       multiple.test
+                        ³   ³   ³       multiple_dynamic.test
+                        ³   ³   ³       nested_blocks.test
+                        ³   ³   ³       nested_blocks_parent_only.test
+                        ³   ³   ³       nested_inheritance.test
+                        ³   ³   ³       parent.test
+                        ³   ³   ³       parent_change.test
+                        ³   ³   ³       parent_in_a_block.test
+                        ³   ³   ³       parent_isolation.test
+                        ³   ³   ³       parent_nested.test
+                        ³   ³   ³       parent_without_extends.test
+                        ³   ³   ³       parent_without_extends_but_traits.test
+                        ³   ³   ³       template_instance.test
+                        ³   ³   ³       use.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄmacro
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       endmacro_name.test
+                        ³   ³   ³       external.test
+                        ³   ³   ³       from.test
+                        ³   ³   ³       from_with_reserved_name.test
+                        ³   ³   ³       global.test
+                        ³   ³   ³       import_with_reserved_nam.test
+                        ³   ³   ³       reserved_name.test
+                        ³   ³   ³       self_import.test
+                        ³   ³   ³       special_chars.test
+                        ³   ³   ³       super_globals.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄraw
+                        ³   ³   ³       basic.legacy.test
+                        ³   ³   ³       mixed_usage_with_raw.legacy.test
+                        ³   ³   ³       whitespace_control.legacy.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄsandbox
+                        ³   ³   ³       not_valid1.test
+                        ³   ³   ³       not_valid2.test
+                        ³   ³   ³       simple.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄset
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       capture-empty.test
+                        ³   ³   ³       capture.test
+                        ³   ³   ³       expression.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄspaceless
+                        ³   ³   ³       simple.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄuse
+                        ³   ³   ³       aliases.test
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       deep.test
+                        ³   ³   ³       deep_empty.test
+                        ³   ³   ³       inheritance.test
+                        ³   ³   ³       inheritance2.test
+                        ³   ³   ³       multiple.test
+                        ³   ³   ³       multiple_aliases.test
+                        ³   ³   ³       parent_block.test
+                        ³   ³   ³       parent_block2.test
+                        ³   ³   ³       parent_block3.test
+                        ³   ³   ³       use_with_parent.test
+                        ³   ³   ³       
+                        ³   ³   ÃÄÄÄverbatim
+                        ³   ³   ³       basic.test
+                        ³   ³   ³       mixed_usage_with_raw.test
+                        ³   ³   ³       whitespace_control.test
+                        ³   ³   ³       
+                        ³   ³   ÀÄÄÄwith
+                        ³   ³           basic.test
+                        ³   ³           expression.test
+                        ³   ³           nested.test
+                        ³   ³           with_no_hash.test
+                        ³   ³           with_only.test
+                        ³   ³           
+                        ³   ÀÄÄÄtests
+                        ³           array.test
+                        ³           constant.test
+                        ³           defined.test
+                        ³           defined_for_attribute.test
+                        ³           defined_for_blocks.test
+                        ³           defined_for_blocks_with_template.test
+                        ³           defined_for_constants.test
+                        ³           empty.test
+                        ³           even.test
+                        ³           in.test
+                        ³           in_with_objects.test
+                        ³           iterable.test
+                        ³           null_coalesce.test
+                        ³           odd.test
+                        ³           
+                        ÃÄÄÄLegacyFixtures
+                        ³   ³   test.legacy.test
+                        ³   ³   
+                        ³   ÃÄÄÄautoescape
+                        ³   ³       filename.legacy.test
+                        ³   ³       
+                        ³   ÀÄÄÄfunctions
+                        ³           undefined_block.legacy.test
+                        ³           
+                        ÃÄÄÄLoader
+                        ³   ³   ArrayTest.php
+                        ³   ³   ChainTest.php
+                        ³   ³   FilesystemTest.php
+                        ³   ³   
+                        ³   ÀÄÄÄFixtures
+                        ³       ÃÄÄÄinheritance
+                        ³       ³       array_inheritance_empty_parent.html.twig
+                        ³       ³       array_inheritance_nonexistent_parent.html.twig
+                        ³       ³       array_inheritance_null_parent.html.twig
+                        ³       ³       array_inheritance_valid_parent.html.twig
+                        ³       ³       parent.html.twig
+                        ³       ³       spare_parent.html.twig
+                        ³       ³       
+                        ³       ÃÄÄÄnamed
+                        ³       ³       index.html
+                        ³       ³       
+                        ³       ÃÄÄÄnamed_bis
+                        ³       ³       index.html
+                        ³       ³       
+                        ³       ÃÄÄÄnamed_final
+                        ³       ³       index.html
+                        ³       ³       
+                        ³       ÃÄÄÄnamed_quater
+                        ³       ³       named_absolute.html
+                        ³       ³       
+                        ³       ÃÄÄÄnamed_ter
+                        ³       ³       index.html
+                        ³       ³       
+                        ³       ÃÄÄÄnormal
+                        ³       ³       index.html
+                        ³       ³       
+                        ³       ÃÄÄÄnormal_bis
+                        ³       ³       index.html
+                        ³       ³       
+                        ³       ÃÄÄÄnormal_final
+                        ³       ³       index.html
+                        ³       ³       
+                        ³       ÃÄÄÄnormal_ter
+                        ³       ³       index.html
+                        ³       ³       
+                        ³       ÃÄÄÄphar
+                        ³       ³       phar-sample.phar
+                        ³       ³       
+                        ³       ÀÄÄÄthemes
+                        ³           ÃÄÄÄtheme1
+                        ³           ³       blocks.html.twig
+                        ³           ³       
+                        ³           ÀÄÄÄtheme2
+                        ³                   blocks.html.twig
+                        ³                   
+                        ÃÄÄÄNode
+                        ³   ³   AutoEscapeTest.php
+                        ³   ³   BlockReferenceTest.php
+                        ³   ³   BlockTest.php
+                        ³   ³   DoTest.php
+                        ³   ³   ForTest.php
+                        ³   ³   IfTest.php
+                        ³   ³   ImportTest.php
+                        ³   ³   IncludeTest.php
+                        ³   ³   MacroTest.php
+                        ³   ³   ModuleTest.php
+                        ³   ³   PrintTest.php
+                        ³   ³   SandboxedPrintTest.php
+                        ³   ³   SandboxTest.php
+                        ³   ³   SetTest.php
+                        ³   ³   SpacelessTest.php
+                        ³   ³   TextTest.php
+                        ³   ³   
+                        ³   ÀÄÄÄExpression
+                        ³       ³   ArrayTest.php
+                        ³       ³   AssignNameTest.php
+                        ³       ³   CallTest.php
+                        ³       ³   ConditionalTest.php
+                        ³       ³   ConstantTest.php
+                        ³       ³   FilterTest.php
+                        ³       ³   FunctionTest.php
+                        ³       ³   GetAttrTest.php
+                        ³       ³   NameTest.php
+                        ³       ³   NullCoalesceTest.php
+                        ³       ³   ParentTest.php
+                        ³       ³   TestTest.php
+                        ³       ³   
+                        ³       ÃÄÄÄBinary
+                        ³       ³       AddTest.php
+                        ³       ³       AndTest.php
+                        ³       ³       ConcatTest.php
+                        ³       ³       DivTest.php
+                        ³       ³       FloorDivTest.php
+                        ³       ³       ModTest.php
+                        ³       ³       MulTest.php
+                        ³       ³       OrTest.php
+                        ³       ³       SubTest.php
+                        ³       ³       
+                        ³       ÃÄÄÄPHP53
+                        ³       ³       FilterInclude.php
+                        ³       ³       FunctionInclude.php
+                        ³       ³       TestInclude.php
+                        ³       ³       
+                        ³       ÀÄÄÄUnary
+                        ³               NegTest.php
+                        ³               NotTest.php
+                        ³               PosTest.php
+                        ³               
+                        ÃÄÄÄNodeVisitor
+                        ³       OptimizerTest.php
+                        ³       
+                        ÃÄÄÄProfiler
+                        ³   ³   ProfileTest.php
+                        ³   ³   
+                        ³   ÀÄÄÄDumper
+                        ³           AbstractTest.php
+                        ³           BlackfireTest.php
+                        ³           HtmlTest.php
+                        ³           TextTest.php
+                        ³           
+                        ÀÄÄÄUtil
+                                DeprecationCollectorTest.php
+                                

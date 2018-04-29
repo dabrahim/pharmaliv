@@ -1,0 +1,101 @@
+{% extends 'home-base.html' %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{{rootDir}}/static/css/custom/accueil-pharmacien.css">
+{% endblock %}
+
+{% block type %}PHARMACIEN{% endblock %}
+
+{% block content %}
+<button id="btn-publier-produit"><img src="{{rootDir}}/static/icons/drugs.png"><br>Publier un nouveau produit</button>
+<div id="nos-produits"></div>
+
+<div id="commandes">
+    {% if commandes is not empty %}
+    <h1>Commandes en attente</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Numero Commande</th>
+            <th>Date d'émission</th>
+            <th>Date de livraison</th>
+            <th>Heure de livraison</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for commande in commandes %}
+        <tr>
+            <td>{{ commande['id_commande'] }}</td>
+            <td> {{ commande['date_envoi'] }} </td>
+            <td> {{ commande['date_livraison'] }} </td>
+            <td> {{ commande['heure_livraison'] }}H </td>
+            <td><button class="gerer-btn" id="cmd-{{commande['id_commande']}}">Gérer</button></td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+</div>
+
+{% endblock %}
+
+{% block layer %}
+<div id="produit-notice">
+    <input type="text" name="notice" placeholder="Notice à rechercher">
+    <div id="notices-rslt"></div>
+</div>
+
+<form action="./rest/produit/publier" method="POST" id="form-publication-produit" enctype="multipart/form-data" class="animated fadeInDown">
+    <h1>Publication produit</h1>
+    <p>Veuillez remplir le formulaire suivant pour publier un produit</p>
+    <input type="text" name="titre" placeholder="Titre du produit"><br>
+    <input type="number" placeholder="Prix" name="prix"><br>
+    <textarea name="description" placeholder="Description du produit"></textarea><br>
+    <strong>Type: </strong><input type="radio" name="type" value="parapharmacie">Parapharmacie
+    <input type="radio" name="type" value="medicament" checked>Médicament<br>
+    <input type="file" name="photo"><br>
+    <input type="number" name="idNotice" style="display: none;">
+    <button id="btn-publier-prod" type="submit">Publier produit</button>
+</form>
+
+<div id="gerer-commande" class="animated fadeInDown">
+    <h1>Commande</h1>
+    <div class="container">
+        <div id="details-livraison" class="block">
+            <div class="header">Détails Commande</div>
+            <div class="content"></div>
+        </div>
+        <div id="details-client" class="block">
+            <div class="header">Détails Client</div>
+            <div class="content"></div>
+        </div>
+        <div id="documents-joints" class="block">
+            <div class="header">Documents Joints</div>
+            <div class="content">Cette commande ne contient aucun document.</div>
+        </div>
+        <div id="products-summary">
+            <h2>Produits</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom Produit</th>
+                        <th>Type Produit</th>
+                        <th>Quantité</th>
+                        <th>Prix Unitaire</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <div class="total"></div>
+        </div>
+    </div>
+    <button id="btn-valider-commande">Valider Commande</button>
+</div>
+{% endblock %}
+
+{% block scripts %}
+    <script src="{{rootDir}}/static/js/assets/jquery-3.2.1.js"></script>
+    <script src="{{rootDir}}/static/js/custom/accueil-pharmacien.js"></script>
+{% endblock %}

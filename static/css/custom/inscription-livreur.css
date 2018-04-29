@@ -1,0 +1,34 @@
+#form-inscription-livreur{display:  inline-block;background:  rgba(26,188,156,0.4);padding: 30px 30px;margin: 50px;}
+#form-inscription-livreur input{
+
+    width:  300px;
+
+    height:  35px;
+
+    font-size:  15px;
+
+    padding:  5px;
+
+    margin:  2px;
+
+    border:  none;
+
+    background-color: rgba(255,255,255,0.8);
+}
+#form-inscription-livreur h1{
+    color:  white;
+    font-size: 35px;
+    margin: 20px;
+}
+#form-inscription-livreur button{
+    width:  300px;
+    background-color:  green;
+    height:  35px;
+    font-size:  16px;
+    color: white;
+    font-weight:  bold;
+    border:  none;
+    margin:  5px;
+    cursor: pointer;
+    /* opacity: 0.5; */
+}

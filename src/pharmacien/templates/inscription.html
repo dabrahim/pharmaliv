@@ -1,0 +1,22 @@
+{% extends 'home-base.html' %}
+
+
+{% block links %}{% endblock %}
+{% block styles %}
+<link rel="stylesheet" href="{{rootDir}}/static/css/custom/inscription-pharmacien.css">
+{% endblock %}
+{% block content %}
+	<form action="" method="POST" id="form-inscription-pharmacien">
+		<h1>Inscription Pharmacien</h1>
+		<input type="text" name="full_name" placeholder="Votre nom complet"><br>
+		<input type="email" name="email" placeholder="Votre E-mail"><br>
+		<input type="password" name="password" placeholder="Votre Mot de Passe"><br>
+		<input type="password" name="password_conf" placeholder="Confirmation Mot de passe"><br>
+		<button type="submit">S'inscrire</button>
+	</form>
+	<ul>
+		{% for msg in errors %}
+			<li>{{ msg }}</li>
+		{% endfor %}
+	</ul>
+{% endblock %}

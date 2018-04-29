@@ -1,0 +1,23 @@
+{% extends 'home-base.html' %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{rootDir}}/static/css/custom/inscription-client.css">
+{% endblock %}
+
+{% block type %}INSCRIPTION{% endblock %}
+
+{% block links %}{% endblock %}
+
+{% block content  %}
+<form action="" method="POST" id="form-inscription-client">
+    <h1>Inscription</h1>
+    <input type="text" name="nomComplet" placeholder="Nom Complet"><br>
+    <input type="date" name="dateDeNaissance" placeholder="Date de naissance"><br>
+    <strong>Sexe: </strong><input type="radio" value="M" name="sexe" checked>M
+    <input type="radio" value="F" name="sexe">F<br>
+    <input type="text" name="numeroTelephone" placeholder="Numéro de téléphone"><br>
+    <input type="text" name="email" placeholder="Email"><br>
+    <input type="password" name="motDePasse" placeholder="Mot de passe"><br>
+    <input type="submit" value="S'inscrire">
+</form>
+{% endblock %}

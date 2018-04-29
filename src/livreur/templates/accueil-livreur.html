@@ -1,0 +1,29 @@
+{% extends 'home-base.html' %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{rootDir}}/static/css/custom/accueil-livreur.css">
+{% endblock %}
+
+{% block type %}LIVREUR{% endblock %}
+
+{% block content %}
+    {% if commandes is not empty %}
+
+        <div id="commandes">
+            <div class="title">Commandes en attente</div>
+        {% for commande in commandes %}
+            <div class="commande">
+                Commande à livrer le <strong>{{commande['date_livraison']}}</strong> à <strong>{{commande['heure_livraison']}}H</strong>
+            </div>
+        {% endfor %}
+        </div>
+
+    {% else %}
+        <h1>Vous n'avez aucune livraison à faire</h1>
+    {% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
+
+

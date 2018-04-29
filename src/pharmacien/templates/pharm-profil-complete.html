@@ -1,0 +1,35 @@
+{% extends 'home-base.html' %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{rootDir}}/static/css/custom/pharm-profil-complete.css">
+{% endblock %}
+
+{% block type %}INSCRIPTION{% endblock %}
+
+{% block content %}
+    <form action="" method="POST" id="form-info-pharmacie">
+        <div id="details-pharmacie">
+            <h1>Informations pharmacie</h1>
+            <input type="text" name="nom" placeholder="Nom de la pharmacie"><br>
+            <input type="number" placeholder="Heure Ouverture" name="heureOuverture"><input type="number" name="heureFermeture" placeholder="Heure Fermeture"><br>
+            <textarea name="adresse" placeholder="Adresse"></textarea><br>
+            <input type="text" id="lat" name="lat" readonly="yes" style="display: none;">
+            <input type="text" id="lng" name="lng" readonly="yes" style="display: none;">
+            <input type="text" name="numFixe" placeholder="Numéro du Fixe"><br>
+            <input type="text" name="numMobile" placeholder="Numéro du mobile"><br>
+            <input type="text" name="coordGeo" value="Pending ...." style="display: none;">
+            <button type="button" id="btn-next">Suivant</button>
+        </div>
+        <div id="position-pharmacie" class="animated fadeInRight">
+            <h1>Position Géographique</h1>
+            <p>Veuillez sélectionner la position géographique de la pharmacie sur la carte suivante</p>
+            <div id="googleMap"></div>
+            <button>Enregistrer les informations</button>
+        </div>
+    </form>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript" src="{{rootDir}}/static/js/custom/pharm-profil-complete.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKvUEs0YG-qfExgDuIFM_xx45t7osnQ5E&callback=myMap"></script>
+{% endblock %}
